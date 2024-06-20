@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Otomanopee;
+    src: url("OtomanopeeOne-Regular.ttf");
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgb(0,0,50) 10%, rgb(26, 26, 88));
+    font-family: Otomanopee;
+}
+
+canvas {
+    border: 4px solid rgba(0,100,0,0.3);
+    display: block;
+    margin: 35px auto 25px auto;
+    background-color: black;
+}
+
+button {
+    width: 130px;
+    height: 55px;
+    font-size: 2em;
+    background-color: red;
+    border: 2px solid rgb(26, 26, 88);
+    border-radius: 15%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Otomanopee;
+}
